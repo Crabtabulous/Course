@@ -9,7 +9,7 @@ language = "en"
 [preprocessor.links]
 
 [output.html]
-additional-css = ["skin.css"]
+
 
 [output.html.search]
 limit-results = 15
