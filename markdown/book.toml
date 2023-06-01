@@ -1,0 +1,15 @@
+[book]
+title = "The greatest book in the world"
+authors = ["John Doe"]
+description = "The test book covers tests."
+language = "en"
+
+[preprocessor.index]
+
+[preprocessor.links]
+
+[output.html]
+additional-css = ["skin.css"]
+
+[output.html.search]
+limit-results = 15
