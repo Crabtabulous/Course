@@ -32,6 +32,9 @@ jobs:
           use-mermaid: true
           use-toc: true
           use-opengh: true
+          use-admonish: true
+          use-katex: true
+          
       - name: Show mdbook version
         run: mdbook --version
       - name: Show linkchecker version
@@ -42,6 +45,10 @@ jobs:
         run: mdbook-toc --version
       - name: Show open-on-gh version
         run: mdbook-open-on-gh --version
+      - name: Show admonish version
+        run: mdbook-admonish --version
+      - name: Show katex version
+        run: mdbook-katex --version
       - name: Build markdown document
         run: mdbook build /home/runner/work/Course/Course/markdown -d out
       - name: Store HTML
